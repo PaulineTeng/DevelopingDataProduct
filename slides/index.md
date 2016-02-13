@@ -35,15 +35,9 @@ The predicted result could be
   
   Diastolic = 89
 
-```{r, echo=FALSE}
-  systolic <- 125
-  diastolic <- 89
 
-  if ((systolic < 120) && (diastolic < 80)) {result <- 'Normal'}
-  if ((systolic >= 120 && systolic < 140) || (diastolic >= 80 && diastolic < 90)) {result <- 'Prehypertension'}
-  if ((systolic >= 140) || (diastolic >=90))  {result <- 'Hypertension'}
-  
-  result
+```
+## [1] "Prehypertension"
 ```
 
 ---
